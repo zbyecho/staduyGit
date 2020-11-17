@@ -1,7 +1,7 @@
 /*
  * @Date: 2020-11-16 16:05:30
  * @LastEditors: zhangbaoyan
- * @LastEditTime: 2020-11-16 16:50:28
+ * @LastEditTime: 2020-11-17 15:51:59
  * @FilePath: /Code/CodeFn/Promise.js
  */
 
@@ -84,6 +84,7 @@ PromiseA.race = function (value) {
 var PromiseA = new PromiseA((resolve,reject) => {
     setTimeout(function () {
         resolve(1)
+        // eeee
     })
 })
 
